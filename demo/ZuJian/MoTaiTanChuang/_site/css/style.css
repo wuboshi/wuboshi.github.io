@@ -1,0 +1,40 @@
+
+html,
+body,
+#wrap {
+    height: 100%;
+    width: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #293a4a;
+}
+#wrap {
+    display: table;
+    text-align: center;
+}
+#wrap .button {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 0;
+    text-align: center;
+}
+.button input[type=button] {
+    border: none;
+    background: #2ecc71;
+    font-size: 1.6rem;
+    padding: .6rem 2rem;
+    font-family: 'Open Sans', Helvetica, Tahoma, Arial, STXihei, "Microsoft YaHei", SimSun, Heiti, sans-serif;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+.button input[type=button]:hover {
+    background-color: #58d68d;
+}
+.button input[type=button]:active {
+    background-color: #27ad60;
+}

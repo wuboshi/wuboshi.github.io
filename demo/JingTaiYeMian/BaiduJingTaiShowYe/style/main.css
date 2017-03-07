@@ -1,0 +1,195 @@
+@charset "utf-8";
+/*reset css*/
+body,p,ul,li,span,input {
+	margin: 0;
+	padding: 0;
+}
+body {
+	position: relative;
+	color: #999;
+	height: 800px;
+}
+/*总体部分*/
+
+/*header 部分*/
+.header {
+	position: relative;
+}
+.cat {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 19px 0 5px 0;
+	padding: 0 96px 0 0;
+}
+.cat a {
+	float: left;
+	color: #333;
+	font-weight: bold;
+	line-height: 24px;
+	margin-left: 20px;
+	font-size: 13px;
+	text-decoration: underline;
+}
+.cat a:hover {
+	color: #00c;
+}
+a.moreProduct {
+	position: absolute;
+	right: 10px;
+	top:0;
+	width: 60px;
+	height: 23px;
+	line-height: 24px;
+	font-size: 12px;
+	color: white;
+	background: #38f;
+	text-decoration: none;
+	text-align: center;
+
+}
+/*搜索框 */
+.main {
+	position: relative;
+	top: 200px;
+}
+.searchCamera {
+	display: inline-block;
+	width: 18px;
+	height: 16px;
+	background: url(../images/camera.png) no-repeat center 0;
+}
+.searchCamera:hover {
+	background: url(../images/camera.png) no-repeat center -19px;
+}
+.bdLogo {
+	text-align: center;
+}
+.searchInput {
+	text-align: center;
+}
+.bdLogo img {
+	width: 270px;
+	height: 129px;
+}
+.searchText {
+	display: inline-block;
+	border:1px solid #b6b6b6;
+	border-color:#b8b8b8 transparent #ccc #b8b8b8;
+	height: 34px;
+	width: 539px;
+	border-right-width: 0;
+}
+input[type="text"] {
+	width: 500px;
+	height: 22px;
+	font: 16px/18px arial;
+	margin: 6px 0 0 7px;
+	background: transparent;
+	border:none;
+	outline: none;
+}
+input[type="button"] {
+	width: 100px;
+	height: 36px;
+	color: white;
+	font-size: 15px;
+	letter-spacing: 1px;
+	background: #3385ff;
+	border:none;
+	outline: none;
+}
+input[type="button"]:hover {
+	cursor: pointer;
+	background: #317ef3;
+	box-shadow: 1px 1px 1px #ccc;
+}
+/*footer部分*/
+.footer {
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	bottom: 23px;
+}
+.footerWrap {
+	
+	text-align: center;
+	margin: 0 auto;
+}
+.footerCode {
+	display: inline-block;
+}
+.info {
+	display: inline-block;
+}
+.code {
+	float: left;
+}
+.code2 {
+	margin-left: 32px;
+}
+.codeImg {
+	float: left;
+}
+.codeImg img {
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+.code .codeText {
+	float: left;
+	line-height: 23px;
+	font-size: 12px;
+	margin: 8px 0 0 10px;
+	color: #999;
+}
+.codeText p {
+	letter-spacing: 1px;
+}
+.info {
+	font-size: 12px;
+	margin-left: 33px;
+}
+.info>p {
+	line-height: 23px;
+}
+.footer a {
+	color: #999;
+}
+.jing {
+	top: 3px;
+	margin-left: 6px;
+	display: inline-block;
+	width: 14px;
+	height: 17px;
+	background: url(../images/icons.png) no-repeat -600px -96px;
+}
+.GCD {
+	top: 3px;
+	margin-right: 6px;
+	display: inline-block;
+	width: 14px;
+	height: 17px;
+	background: url(../images/icons.png) no-repeat -623px -96px;
+}
+.searchBtn {
+	margin-left:-8px;
+}
+.suggest {
+	width:540px;
+	margin:0 auto;
+	position: relative;
+	left:-50px;
+	border: 1px solid #bbb;
+	border-top:none;
+}
+.suggest  li {
+	list-style: none;
+	text-align: left;
+	
+	padding:5px 0 5px 10px;
+	line-height: 20px;
+}
+.suggest  li.active {
+	background-color: #eee;
+}

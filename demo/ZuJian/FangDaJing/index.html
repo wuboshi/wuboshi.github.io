@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>放大镜</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	 <a class="jqueryZoom">
+	 	<img class = "picSource" src="1440_900.jpg">
+	 </a>
+	 <a class="jqueryZoom">
+	 	<img class = "picSource" src="1440_900.jpg">
+	 </a>
+	<script type="text/javascript" src ="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src ="js/FangDaJing.js"></script>
+	<script>
+		$(document).ready(function($) {
+          $(".picSource").zoom();
+		});
+	</script>
+</body>
+</html>

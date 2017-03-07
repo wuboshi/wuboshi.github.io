@@ -1,0 +1,115 @@
+@charset "utf-8";
+html, body, div, span,   
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  img, ins, kbd, q, s, samp,  small, strike, strong,   
+dl, dt, dd, ol, ul, li,  fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td {      
+    margin: 0;      
+    padding: 0;      
+    border: 0;      
+    outline: 0;      
+    font-size: 100%;      
+    vertical-align: baseline;      
+    background: transparent;  
+}  
+body {      
+    line-height: 1;  
+}  
+ol, ul {      
+    list-style: none;  
+}  
+blockquote, q {      
+    quotes: none;  
+}  
+blockquote:before, blockquote:after,  q:before, q:after {      
+    content: '';      
+    content: none;  
+}    
+table {      
+    border-collapse: collapse;      
+    border-spacing: 0;  
+}
+
+
+/* ------------------------自定义部分-------------------------- */
+body{
+	width:100%;
+	height:100%;
+	background-color:#555;
+	 font-family:"Microsoft YaHei","Arial","黑体","宋体",sans-serif;
+}
+.wrapper{
+	height:620px;
+	width:800px;
+	margin:100px auto;
+	border:1px solid #bbb;
+	background:#e3e2ee;
+}
+.wrapper .title {
+	width:100%;
+	height:70px;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	color:#666;
+	letter-spacing: 5px
+
+}
+.wrapper .content {
+	width:100%;
+	
+	border-top:1px solid #bbb;
+	height:400px;
+	border-bottom:1px solid #bbb;
+	overflow: auto;
+}
+.wrapper .content .content-list li {
+	display: block;
+	width:90%;
+	min-height: 40px;
+	margin:10px auto;
+	border:1px solid #cdd7e2;
+	color:#fff;
+	background-color: #acd9f8;
+	overflow: hidden;
+	padding:10px 20px;
+}
+.wrapper .content .content-list li .info {
+   font-size:18px;
+}
+.wrapper .content .content-list li .time {
+   font-size:12px;
+   float: right;
+}
+.wrapper .content .content-list li .del {
+	float: right;
+	margin-right: 20px;
+	background-color: red;
+	color:#000;
+	cursor:pointer ;
+	padding:2px 5px;
+	display: none;
+}
+.wrapper .content .content-list li .del.sure {
+	display: block;
+}
+.wrapper .send-content  {
+	width:100%;
+	height:100px;
+	
+	border:1px solid #bbb;
+	overflow: hidden;
+	box-sizing:border-box;
+	padding:10px;
+}
+.wrapper .send-content  .inputtext {
+   padding:10px;
+}
+.wrapper .sendbtn input[type="button"] {
+	float: right;
+	margin-right: 20px;
+	padding:5px 10px;
+	background-color: #4c5ab1;
+	color:#fff;
+}
+

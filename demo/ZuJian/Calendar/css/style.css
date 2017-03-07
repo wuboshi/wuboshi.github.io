@@ -1,0 +1,46 @@
+@charset "utf-8";
+.picSource {
+	width:288px;
+	height:180px;
+	padding:5px;
+	border:1px solid #eee;
+}
+.zoomBox {
+	position:absolute;
+	width:400px;
+	height:400px;
+	overflow: hidden;
+}
+.wrapper {
+	margin:200px auto;
+	width:500px;
+	text-align:center;
+}
+table{
+	border:1px solid #333;
+	width:430px;
+	margin:0 auto;
+
+}
+table thead {
+	heigh:40px;
+	line-height:40px;
+}
+table caption {
+	border:1px solid #333;
+	border-bottom:none;
+	height:50px;
+	line-height:50px;
+	background-color:red;
+}
+table caption span.change {
+	display:inline-block;
+	width:40px;
+	color:#0f2;
+	cursor:pointer;
+}
+td {
+	width:60px;
+	height:25px;
+	line-height:25px;
+}

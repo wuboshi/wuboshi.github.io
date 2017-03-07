@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>旋转木马 插件</title>
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+    <div class="container carousel" data-setting='{
+                                                                                    "width":800,
+                                                                                    "height":400,
+                                                                                    "posterWidth":600,
+                                                                                    "posterHeight":400,
+                                                                                    "scale":0.9,
+                                                                                    "autoPlay":true,
+                                                                                    "delay":2000,
+                                                                                    "speed":300,
+                                                                                    "vericalAlign":"top"
+                                                                                    }'>
+        <div class="carsoulePrev prev"></div>
+        <div class="carouselList" >
+            <img src="images/1.jpg" alt="1" class="carouselItem" />
+            <img src="images/2.jpg" alt="2" class="carouselItem" />
+            <img src="images/3.jpg" alt="3" class="carouselItem" />
+            <img src="images/4.jpg" alt="4" class="carouselItem" />
+            <img src="images/5.jpg" alt="5" class="carouselItem" />
+            <img src="images/6.jpg" alt="6" class="carouselItem" />
+            <img src="images/7.jpg" alt="7" class="carouselItem" />
+            <img src="images/8.jpg" alt="8" class="carouselItem" />
+            <img src="images/9.jpg" alt="9" class="carouselItem" />
+        </div>
+        <div class="carsoulePrev next"></div>
+    </div>
+    <div class="bug">
+        <p>
+            接口不够友好，需要改善，把接口文档给写一下
+        </p>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="js/mainjs.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            Carousel.init($(".carousel"));
+        })
+    </script>
+
+</body>
+</html>

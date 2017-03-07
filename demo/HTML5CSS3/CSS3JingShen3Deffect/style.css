@@ -1,0 +1,44 @@
+
+.wrapper{
+	
+	perspective: 800px;
+	position: relative;
+}
+.box {
+	transform-style: preserve-3d;
+	transform: translateZ(0px);
+	width:1120px;
+	height:506px;
+	margin:0 auto;
+	background:url(http://static.smartisanos.cn/index/img/store/home/banner-3d-item-627-box-1_eeb52c2cdd.png) center center no-repeat;
+	
+	}
+.mask1{
+	
+	
+	position: absolute;
+	top:0;
+	left:0;
+
+
+	transform: translateZ(100px);
+	width:1120px;
+	height:506px;
+	margin:0 auto;
+	background:url(http://static.smartisanos.cn/index/img/store/home/banner-3d-item-627-box-2_bb23800aae.png) center center no-repeat;
+}
+.mask2 {
+	margin: auto auto;
+	
+	
+	position: absolute;
+	top:0;
+	left:0;
+	transform: translateZ(17px);
+
+	width:1120px;
+	height:506px;
+		background:url(http://static.smartisanos.cn/index/img/store/home/banner-3d-item-627-box-3_4016bc552d.png) center center no-repeat;
+	}
+	
+	

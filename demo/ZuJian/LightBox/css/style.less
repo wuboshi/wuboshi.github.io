@@ -1,0 +1,39 @@
+@charset "utf-8";
+// 遮罩层
+// 设置图片格式
+.imageGroup {
+	img {
+		width:100px;
+		height:100px;
+	}
+}
+
+#light-mask {
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 999;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity: .3;
+	filter: alpha(opacity=30);
+	// 先 设为  display:none;
+	display:none;
+}
+// 灯箱
+.light-popbox {
+	position: absolute;
+	z-index: 1000;
+	top:0;
+	left:50%;
+	// 先 设为  display:none;
+	display:none;
+	background:url(../icon/loading.gif) no-repeat center center;
+	.light-pop-pic {
+		border:5px solid #eee;
+	}
+	.light-pop-close {
+		background:url(../icon/close.png) no-repeat center center;
+	}
+}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+html, body, dl, dt, dd {
+    margin: 0;padding:0;
+}
+body {
+    background: rgba(0, 0, 0, 0.54); /*#d2dfc7;*/
+    font-family:"Microsoft YaHei","Arial","黑体","宋体",sans-serif;
+}
+h2 {
+    text-align:center;
+}
+/*菜单*/
+.indexMenu {
+    margin: 50px auto;
+    padding: 10px 10px;
+    width: 450px;
+    box-shadow: 0 0 3px 2px #e9ebec;
+}
+/*菜单标题*/
+.menuTitle {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    background: #128fdc; 
+    color: white;
+    font-size: 19px;
+}
+.menuTitle:hover {
+    background: #099DF9;
+}
+/*菜单选项*/
+.mentList {
+    height: 30px;
+    line-height: 28px;
+    background: #fafafa;
+    color: #7f96a3;
+}
+.mentList a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #7f96a3;
+    border:1px solid transparent;
+}
+.mentList a:hover {
+    border:1px solid #128fdc;
+}
+.sMenu dd a:hover {
+    height: 28px;
+    line-height: 28px;
+    background: #fafafa; /*#4488f8*/
+    color: #7f96a3;
+    border: 1px solid #0063dc;
+}

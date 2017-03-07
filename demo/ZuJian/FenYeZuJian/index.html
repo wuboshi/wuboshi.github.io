@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="list"></div>
+
+	<script type="text/javascript" src ="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src ="js/main.js"></script>
+	<script>
+		$(document).ready(function($) {
+			$(".list").showPager({
+				pageIndex: 8, // 当前页  默认第1页
+				total: 20, // 总共页数   默认20
+				neighbors: 3 // 当前页 前后左右显示多少页 默认3页
+			});
+		});
+	</script>
+</body>
+</html>

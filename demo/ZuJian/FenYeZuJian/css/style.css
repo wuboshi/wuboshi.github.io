@@ -1,0 +1,22 @@
+@charset "utf-8";
+.list {
+	margin: 3em 0 0 ;
+}
+a ,span {
+	text-decoration:none;
+	display: inline-block;
+	color:#fff;
+	margin:0 .2em;
+	padding:0.5em .8em;
+	background-color:#128fdc;
+	border:1px solid #128fdc;
+	transition:all .2s;
+}
+.current {
+	background: #fff;
+	color:#333;
+}
+a:hover,span:hover,.current:hover {
+	background: #fff;
+	color:#333;
+}

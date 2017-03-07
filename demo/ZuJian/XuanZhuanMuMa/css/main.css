@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* 左右切换按钮的样式 */
+.container {
+  width: 700px;
+  height: 400px;
+  position: relative;
+  margin: 2em auto;
+}
+.container img {
+  position: absolute;
+}
+.container .prev {
+  background: url(../images/btn_l.png) no-repeat center center;
+  left: 0;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.13);
+  cursor: pointer;
+}
+.container .prev:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.container .next {
+  background: url(../images/btn_r.png) no-repeat center center;
+  right: 0;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.13);
+  cursor: pointer;
+}
+.container .next:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/*# sourceMappingURL=main.css.map */

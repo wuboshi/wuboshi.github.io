@@ -1,0 +1,41 @@
+@charset "utf-8";
+.articleTitle {
+  text-align: center;
+  margin: 2em 0;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+#containerBox {
+  margin: 2em auto 0;
+  width: 500px;
+  border: 1px solid #999;
+}
+.tabtitle {
+  background-color: #888;
+}
+.tabtitle ul li {
+  display: inline-block;
+  width: 20%;
+  background-color: #eee;
+  text-align: center;
+}
+.tabtitle ul li a {
+  display: block;
+  padding: .5em 0;
+}
+.tabtitle ul li a.select {
+  background-color: #fff;
+}
+.bug {
+  font-size: 16px;
+  color: #bbb;
+}
+.card {
+  padding: 2em;
+  display: none;
+}
+.card:first-child {
+  display: block;
+}

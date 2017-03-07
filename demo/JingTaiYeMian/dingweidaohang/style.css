@@ -1,0 +1,93 @@
+@charset "utf-8";
+html, body, div, span,   
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  img, ins, kbd, q, s, samp,  small, strike, strong,   
+dl, dt, dd, ol, ul, li,  fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td {      
+    margin: 0;      
+    padding: 0;      
+    border: 0;      
+    outline: 0;      
+    font-size: 100%;      
+    vertical-align: baseline;      
+    background: transparent;  
+}  
+body {      
+    line-height: 1;  
+}  
+ol, ul {      
+    list-style: none;  
+}  
+blockquote, q {      
+    quotes: none;  
+}  
+blockquote:before, blockquote:after,  q:before, q:after {      
+    content: '';      
+    content: none;  
+}    
+table {      
+    border-collapse: collapse;      
+    border-spacing: 0;  
+}
+
+
+/* ------------------------自定义部分-------------------------- */
+.wrapper{
+	width:800px;
+	margin:0 auto;
+	overflow:hidden;
+	position: relative;
+}
+.wrapper .content  {
+	width:90%;
+	float: left;
+}
+.wrapper .menu  {
+	position: fixed;
+	top:100px;
+	left:90%;
+	width:100px;
+	
+}
+.wrapper .content .item {
+	width:100%;
+	height:800px;
+	border:1px solid #ccc;
+}
+.wrapper .menu  li  a {
+	display:block;
+	height:20px;
+	background:#bbb;
+	padding:10px 20px;
+}
+
+.wrapper .menu  li a:link,.wrapper .menu  li a:visited,.wrapper .menu  li a:hover,.wrapper .menu  li a:active{
+	background:#bbb;
+	text-decoration: none;
+	color:#fff;
+}
+.wrapper .menu  li a.active {
+	background:#555;
+	color:#FFF;
+}
+.wrapper .content .item1 {
+	background-color: rgb(255,0,0);
+}
+.wrapper .content .item2 {
+	background-color: rgb(0,255,0);
+}
+.wrapper .content .item3 {
+	background-color: rgb(0,0,255);
+}
+.wrapper .content .item4 {
+	background-color: rgb(255,165,0);
+}
+.wrapper .content .item5 {
+	background-color: rgb(255,255,0);
+}
+.wrapper .content .item6 {
+	background-color: rgb(0,127,255);
+}
+
+	
+	

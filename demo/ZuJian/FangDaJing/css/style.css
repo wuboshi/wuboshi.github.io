@@ -1,0 +1,13 @@
+@charset "utf-8";
+.picSource {
+	width:288px;
+	height:180px;
+	padding:5px;
+	border:1px solid #eee;
+}
+.zoomBox {
+	position:absolute;
+	width:400px;
+	height:400px;
+	overflow: hidden;
+}
