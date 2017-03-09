@@ -1,4 +1,4 @@
-window.onload = function() {
+﻿window.onload = function() {
   var menu = [
     ['静态页面', 
       ['demo/JingTaiYeMian/qietu2/index.html', '仿静态页面一(兼容IE8)'],
@@ -23,7 +23,7 @@ window.onload = function() {
     ],
     ['其它',
      ['demo/JingTaiYeMian/BaiduJingTaiShowYe/index.html', '后台交互-仿百度搜索自动提示(利用jsonp，跨域)'],
-     ['https://github.com/ningbo16/ChatRoom', '多人在线聊天室(Angular+Socket.io+Express)']
+     ['https://github.com/wuboshi/ChatRoom', '多人在线聊天室(Angular+Socket.io+Express)']
     ]
   ];
   var list = "";
@@ -40,5 +40,5 @@ window.onload = function() {
     list += '</div>';
   }
   document.body.innerHTML =  list
-   +'<h2><a href = "http://ningbo16.github.io/jekyllBlog/job/2016/06/10/for-interview.html">静态网页的布局请点击这里</a></h2>'
+   +''
 }
