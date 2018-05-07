@@ -1,9 +1,10 @@
 ﻿window.onload = function() {
   var menu = [
     ['静态页面', 
-      ['demo/JingTaiYeMian/qietu2/index.html', '仿静态页面一(兼容IE8)'],
-      ['demo/JingTaiYeMian/qietu1/index.html', '仿静态页面二(兼容IE8)'],
+      ['http://www.findzsj.com/', '上线网站1'],
+      ['http://www.hxjiqi.com/', '上线网站2'],
       ['demo/JingTaiYeMian/XiaoMiGuanWang/index.html', '仿小米官网'],
+	    ['demo/web1/index.html', '移动商城']
     ],
     ['HTML5&CSS3', 
       ['demo/HTML5CSS3/CSS3Animation/index.html', 'CSS3初级动画'],
