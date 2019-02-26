@@ -24,7 +24,8 @@
     ],
     ['其它',
      ['demo/JingTaiYeMian/BaiduJingTaiShowYe/index.html', '后台交互-仿百度搜索自动提示(利用jsonp，跨域)'],
-     ['https://github.com/wuboshi/ChatRoom', '多人在线聊天室(Angular+Socket.io+Express)']
+     ['https://github.com/wuboshi/ChatRoom', '多人在线聊天室(Angular+Socket.io+Express)'],
+     ['demo/weSpace/index.html','爱场地手机端网站']
     ]
   ];
   var list = "";
